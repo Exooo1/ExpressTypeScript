@@ -1,1 +1,1 @@
-# ExpressTypeScript This is my firsy express Server
+# ExpressTypeScript This is my first express Server
