@@ -24,6 +24,7 @@
     // "useDefineForClassFields": true,                  /* Emit ECMAScript-standard-compliant class fields. */
 
     /* Modules */
+    "moduleResolution": "Node",
     "module": "ES6",                                /* Specify what module code is generated. */
     "rootDir": "./src",
     "outDir": "./dist",/* Specify the root folder within your source files. */
