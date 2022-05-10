@@ -1,4 +1,10 @@
-import {api} from './index';
+import axios from 'axios'
+
+export const api = {
+    getA() {
+        return axios.get('http://localhost:8080')
+    }
+}
 
 
 test('request', async () => {
@@ -6,6 +12,6 @@ test('request', async () => {
     expect(data.data.arr).toBe(3)
 });
 
-test('some',()=>{
-    expect(2).toBe(2)
+test('some', () => {
+    expect(2).toBe(3)
 })

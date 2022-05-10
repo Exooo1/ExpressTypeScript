@@ -5,13 +5,15 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "format": "eslint src/**/*.ts --fix",
+    "lint": "eslint src/**/*.ts",
     "prett": "prettier --write src/ ",
     "start:ts": "tsc -w",
     "start:js": "nodemon dist/index.js",
     "start": "concurrently yarn:start:*",
     "test": "jest"
   },
-  "author": "",
+  "author": "MaskalenchikVlas",
   "license": "ISC",
   "devDependencies": {
     "@types/axios": "^0.14.0",
@@ -21,10 +23,6 @@
     "@typescript-eslint/parser": "^5.22.0",
     "concurrently": "^7.1.0",
     "eslint": "^8.14.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "express3-handlebars": "^0.5.2",
     "jest": "^28.1.0",
     "prettier": "^2.6.2",
     "ts-jest": "^28.0.1",
