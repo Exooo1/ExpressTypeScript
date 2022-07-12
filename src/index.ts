@@ -29,6 +29,7 @@
 // app.use(cors());
 // app.use(cookieParser(sessionConfig.secret))
 // app.use(expression(sessionConfig))
+console.log('')
 //
 // const products = ['apple', 'orange'];
 // let user = [
